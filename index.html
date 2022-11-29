@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+
+<title>rudy to gejuch</title>
+<link rel="stylesheet" href="main.css"/>
+
+<meta charset="UTF-8"/>
+</head>
+<body>
+  <h1>ANKIETA</h1>
+    <fieldset>
+        <legend>Jakie jest twoje zajecie 24/7?</legend>
+        <label for="ruchanie">ruchanie<input type="radio" id="ruchanie" name="hobby"></label>
+        <label for="cpanie">cpanie<input type="radio" id="cpanie" name="hobby"></label>
+        <label for="emilia">emilia<input type="radio" id="emilia" name="hobby"></label>
+
+
+    <button id="prz1">potwierdź wybór</button>
+    </fieldset>
+<img src="https://d-art.ppstatic.pl/kadry/k/r/1/84/3b/63821b6868a5f_o_large.jpg" width=100%/>
+<script defer>
+    const Btn=document.getElementById('prz1');
+    Btn.addEventListener('click', promptMessage);
+
+    function promptMessage(){
+        prompt('jestes przegrywem elo');
+    }
+</script>
+</body>
+
+
+
+
+</html>
